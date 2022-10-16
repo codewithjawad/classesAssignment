@@ -18,7 +18,7 @@ balance(){
 }
 
 const detail = new PersonAccount("jawwad","ahmed",100000,"gud_income",50000,"ok")
-console.log(detail);
+document.writeln(detail);
 
 
 class Automobile {
