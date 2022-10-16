@@ -18,7 +18,7 @@ balance(){
 }
 
 const detail = new PersonAccount("jawwad","ahmed",100000,"gud_income",50000,"ok")
-document.writeln(detail);
+console.log(detail);
 
 
 class Automobile {
@@ -29,10 +29,10 @@ class Automobile {
         this.type = type
     }
     start() {
-        return console.log("Car is ready to drive safe")
+        return document.writeln("Car is ready to drive safe")
     }
     openDoor() {
-        return console.log("Door is open now")
+        return document.writeln("Door is open now")
     }
 }
 class Car extends Automobile {
